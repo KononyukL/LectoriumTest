@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+.conteiner {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 50px;
+}
+
+form {
+  box-shadow: 1px 3px 5px 3px darkgray;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+h1 {
+  text-align: center;
+  padding: 0 0 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0 0;
+}
+
+.input-size {
+  width: 100%;
+  height: 35px;
+  border-radius: 3px;
+}
+
+button {
+  background-color: royalblue;
+  border: royalblue;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: steelblue;
+  transition: background-color 0.3s;
+}
+
+input:focus {
+  border: 2px solid royalblue;
+}
+
+input {
+  border: 1px solid darkgray;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  color: royalblue;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: steelblue;
+  transition: color 0.3s;
+}
+
+h1 {
+  color: royalblue;
+}
+
+label {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.item-conteiner:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.map-link {
+  display: flex;
+  justify-content: center;
+}
+
+.password-title {
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox {
+  cursor: pointer;
+}

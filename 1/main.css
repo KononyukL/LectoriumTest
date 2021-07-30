@@ -1,0 +1,60 @@
+.conteiner {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-around;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cube-box {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    padding: 5px 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.circle-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one-cube {
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-box-center {
+    justify-content: center;
+}
+
+.circle-box-end {
+    justify-content: flex-end;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .circle {
+    border-radius: 50%;
+    background-color: black;
+    width: 15px;
+    height: 15px;
+}
